@@ -9,12 +9,12 @@
         android:allowBackup="true"
         android:fullBackupContent="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="@string/xyz_app_name"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
             android:name=".SplashScreen"
-            android:label="@string/app_name"
+            android:label="@string/xyz_app_name"
             android:noHistory="true"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -24,16 +24,12 @@
         </activity>
         <activity
             android:name="id.xyz.xyzuan.Dashboard"
-            android:label="@string/app_name"
+            android:label="@string/xyz_app_name"
             android:screenOrientation="portrait">
         </activity>
-        <activity
+        <!-- activity
             android:name="id.xyz.xyzuan.x90qjhhxqo"
             android:label="@string/navbar_rominfo">
-        </activity>
-        <activity
-            android:name="id.xyz.xyzuan.MainActivity"
-            android:label="@string/app_name" >
-        </activity>
-    </application>
+        </activity -->
+</application>
 </manifest>

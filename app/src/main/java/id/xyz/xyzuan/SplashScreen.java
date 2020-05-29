@@ -1,3 +1,7 @@
+//
+// Copyright (c) 2020, xyzscape prjkt
+//
+
 package id.xyz.xyzuan;
 
 import android.content.Intent;
@@ -7,7 +11,7 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class SplashScreen extends AppCompatActivity {
-private int delay=2000;
+private int delay=1000;
 
         @Override
         protected void onCreate(Bundle savedInstanceState) {
