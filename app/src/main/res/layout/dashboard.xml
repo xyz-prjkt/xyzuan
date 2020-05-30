@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+*
+* Copyright (c) 2020, xyzscape prjkt
+* 
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -9,6 +26,7 @@
 
 
     <LinearLayout
+        android:id="@+id/frame_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
@@ -50,7 +68,7 @@
                     android:layout_marginTop="25dp">
                     
                     <ImageView
-                        android:src="@drawable/rn7"
+                        android:src="@drawable/iPhone11"
                         android:layout_width="150dp"
                         android:layout_height="300dp"/>                
 
@@ -70,7 +88,7 @@
                      android:layout_height="match_parent"
                      android:orientation="vertical"
                      android:gravity="left|center"
-                     android:layout_marginLeft="20dp">
+                     android:layout_marginLeft="15dp">
 
                      <TextView
                          android:layout_width="wrap_content"
@@ -189,13 +207,14 @@
             android:columnOrderPreserved="false">
             
             <androidx.cardview.widget.CardView
+                android:id="@+id/xyz_center"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="5dp"
                 app:cardBackgroundColor="@color/BlackBrown"
                 android:layout_margin="10dp">
-
+               
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -225,6 +244,7 @@
 
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/xyz_sysinfo"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 app:cardCornerRadius="12dp"
@@ -260,6 +280,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/xyz_reboot"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 app:cardCornerRadius="12dp"
@@ -295,14 +316,14 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/aboutme"
+                android:id="@+id/xyz_me"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="5dp"
                 app:cardBackgroundColor="@color/BlackBrown"
                 android:layout_margin="10dp">
-
+       
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"

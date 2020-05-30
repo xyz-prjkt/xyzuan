@@ -27,9 +27,17 @@
             android:label="@string/xyz_app_name"
             android:screenOrientation="portrait">
         </activity>
-        <!-- activity
-            android:name="id.xyz.xyzuan.x90qjhhxqo"
-            android:label="@string/navbar_rominfo">
-        </activity -->
+        <activity
+            android:name="id.xyz.xyzuan.Activity.xyz_me">
+        </activity>
+        <activity
+        android:name="id.xyz.xyzuan.Activity.xyz_center">
+        </activity>
+        <activity
+            android:name="id.xyz.xyzuan.Activity.xyz_sysinfo">
+        </activity>
+        <activity
+            android:name="id.xyz.xyzuan.Activity.xyz_reboot">
+        </activity>
 </application>
 </manifest>
