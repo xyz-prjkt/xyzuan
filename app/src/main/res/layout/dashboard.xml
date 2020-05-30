@@ -242,6 +242,41 @@
 
             </androidx.cardview.widget.CardView>
 
+            <androidx.cardview.widget.CardView
+                android:id="@+id/xyz_game"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="@color/BlackBrown"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="left|center"
+                    android:layout_marginLeft="20dp">
+
+                    <ImageView
+                        android:layout_width="46dp"
+                        android:layout_height="46dp"
+                        android:src="@drawable/xyz_game"
+                    />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/xyz_game"
+                        android:fontFamily="@font/ios_bold"
+                        android:textSize="18sp"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                    />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/xyz_sysinfo"
@@ -269,42 +304,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/xyz_sysinfo"
-                        android:fontFamily="@font/ios_bold"
-                        android:textSize="18sp"
-                        android:textColor="@color/white"
-                        android:layout_marginTop="5dp"
-                        />
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:id="@+id/xyz_reboot"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                app:cardCornerRadius="12dp"
-                app:cardElevation="5dp"
-                app:cardBackgroundColor="@color/BlackBrown"
-                android:layout_margin="10dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="left|center"
-                    android:layout_marginLeft="20dp">
-
-                    <ImageView
-                        android:layout_width="46dp"
-                        android:layout_height="46dp"
-                        android:src="@drawable/xyz_reboot"
-                        />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/xyz_reboot"
                         android:fontFamily="@font/ios_bold"
                         android:textSize="18sp"
                         android:textColor="@color/white"

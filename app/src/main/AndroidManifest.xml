@@ -37,7 +37,10 @@
             android:name="id.xyz.xyzuan.Activity.xyz_sysinfo">
         </activity>
         <activity
-            android:name="id.xyz.xyzuan.Activity.xyz_reboot">
+            android:name="id.xyz.xyzuan.Activity.xyz_game">
+        </activity>
+		<activity
+			android:name="com.codepath.examples.basicsnakegame.SnakeGameActivity">
         </activity>
 </application>
 </manifest>

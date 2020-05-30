@@ -33,7 +33,7 @@
     <!-- Dashboard Menu String -->
     <string name="xyz_center">xyz Megalithic Center</string>
     <string name="xyz_sysinfo">System Information</string>
-    <string name="xyz_reboot">Reboot Zone</string>
+    <string name="xyz_game">Game Zone</string>
     <string name="xyz_me">About Me</string>
     
     <!-- System Info String ( WIP )

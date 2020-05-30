@@ -15,7 +15,7 @@ import android.content.Intent;
 // xyz Activity
 import id.xyz.xyzuan.Activity.xyz_center;
 import id.xyz.xyzuan.Activity.xyz_sysinfo;
-import id.xyz.xyzuan.Activity.xyz_reboot;
+import id.xyz.xyzuan.Activity.xyz_game;
 import id.xyz.xyzuan.Activity.xyz_me;
 
 public class Dashboard extends AppCompatActivity  {
@@ -23,13 +23,13 @@ public class Dashboard extends AppCompatActivity  {
     // CardView List
     CardView xyz_me ;
     CardView xyz_sysinfo ;
-    CardView xyz_reboot ;
+    CardView xyz_game ;
     CardView xyz_center ;
     
     // Intent List
     Intent center ;
     Intent sysinfo ;
-    Intent reboot ;
+    Intent game ;
     Intent me ;
     
     // Main Layout
@@ -42,12 +42,12 @@ public class Dashboard extends AppCompatActivity  {
         xyz_center = findViewById(R.id.xyz_center);
         xyz_sysinfo = findViewById(R.id.xyz_sysinfo);
         xyz_me = findViewById(R.id.xyz_me);
-        xyz_reboot = findViewById(R.id.xyz_reboot);
+        xyz_game = findViewById(R.id.xyz_game);
         
         // Intent
         center = new Intent(this,xyz_center.class);
         sysinfo = new Intent(this,xyz_sysinfo.class);
-        reboot = new Intent(this,xyz_reboot.class);
+        game = new Intent(this,xyz_game.class);
         me = new Intent(this,xyz_me.class);
         
         // OnClick
@@ -65,10 +65,10 @@ public class Dashboard extends AppCompatActivity  {
                 }
             });
             
-        xyz_reboot.setOnClickListener(new View.OnClickListener() {
+        xyz_game.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    startActivity(reboot);
+                    startActivity(game);
                 }
             });
             
