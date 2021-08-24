@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.xyzprjkt.xyzuan"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/xyz_app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash"
+            android:label="@string/xyz_app_name"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="id.xyzprjkt.xyzuan.Dashboard"
+            android:label="@string/xyz_app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="id.xyzprjkt.xyzuan.Activity.xyz_about"/>
+        <activity
+            android:name="id.xyzprjkt.xyzuan.Activity.xyz_center"/>
+        <activity
+            android:name="id.xyzprjkt.xyzuan.Activity.xyz_sysinfo"/>
+        <activity
+            android:name="id.xyzprjkt.xyzuan.Activity.xyz_game"/>
+        <activity
+            android:name="com.codepath.examples.basicsnakegame.SnakeGameActivity"/>
+    </application>
+
+</manifest>

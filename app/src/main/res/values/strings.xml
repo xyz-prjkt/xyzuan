@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">xyzuan</string>
+
+    <!-- Header String -->
+    <string name="xyz_app_name">i xyzuan</string>
+    <string name="xyz_dashboard_title">xyzscape`Zone</string>
+    <string name="xyz_dashboard_hint">Hi, xyzuan!</string>
+
+    <!-- Device Info String -->
+    <string name="xyz_device_name">iPhone 11</string>
+    <string name="xyz_device_proc">Apple A13 Bionic Chip</string>
+    <string name="xyz_device_inter">256 GB</string>
+    <string name="xyz_device_camera">12 + 12 Dual Camera</string>
+    <string name="xyz_device_screen">Liquid Retina HD Screen</string>
+
+    <!-- Dashboard Menu String -->
+    <string name="xyz_center">xyz Megalithic Center</string>
+    <string name="xyz_sysinfo">System Information</string>
+    <string name="xyz_game">Game Zone</string>
+    <string name="xyz_me">About Me</string>
+
+</resources>

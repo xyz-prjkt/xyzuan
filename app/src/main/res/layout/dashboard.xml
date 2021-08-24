@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+*
+* Copyright (c) 2020, xyzscape prjkt
+* 
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/GraphiteBlack"
+    tools:context=".Dashboard">
+
+
+    <LinearLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/xyz_dashboard_title"
+            android:fontFamily="@font/ios_bold"
+            android:textSize="42sp"
+            android:textColor="@color/white"
+            android:layout_margin="25dp"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/xyz_dashboard_hint"
+            android:fontFamily="@font/ios_regular"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="-25dp"
+            android:layout_marginLeft="25dp"/>
+        
+         <GridLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:rowCount="1"
+             android:columnCount="2"
+             android:alignmentMode="alignMargins"
+             >
+             
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="left|center"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="25dp">
+                    
+                    <ImageView
+                        android:src="@drawable/phone"
+                        android:layout_width="150dp"
+                        android:layout_height="300dp"/>                
+
+                </LinearLayout>
+                
+             <androidx.cardview.widget.CardView
+                 android:layout_width="150dp"
+                 android:layout_height="300dp"
+                 app:cardCornerRadius="12dp"
+                 app:cardElevation="5dp"
+                 app:cardBackgroundColor="@color/BlackBrown"
+                 android:layout_marginTop="25dp"
+                 android:layout_marginLeft="20dp">
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:orientation="vertical"
+                     android:gravity="left|center"
+                     android:layout_marginLeft="15dp">
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="Device Name"
+                         android:fontFamily="@font/ios_bold"
+                         android:textSize="18sp"
+                         android:textColor="@color/white"
+                         android:layout_marginTop="5dp"
+                     />
+                 
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="@string/xyz_device_name"
+                         android:fontFamily="@font/ios_regular"
+                         android:textSize="15sp"
+                         android:textColor="@color/white"
+                         android:layout_marginTop="2dp"
+                     />
+                 
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="Processor"
+                         android:fontFamily="@font/ios_bold"
+                         android:textSize="18sp"
+                         android:textColor="@color/white"
+                         android:layout_marginTop="5dp"
+                     />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="@string/xyz_device_proc"
+                         android:fontFamily="@font/ios_regular"
+                         android:textSize="15sp"
+                         android:textColor="@color/white"
+                         android:layout_marginTop="2dp"
+                     />
+                 
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="Internal Storage"
+                         android:fontFamily="@font/ios_bold"
+                         android:textSize="18sp"
+                         android:textColor="@color/white"
+                         android:layout_marginTop="5dp"
+                     />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="@string/xyz_device_inter"
+                         android:fontFamily="@font/ios_regular"
+                         android:textSize="15sp"
+                         android:textColor="@color/white"
+                         android:layout_marginTop="2dp"
+                     />
+                 
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="Camera"
+                         android:fontFamily="@font/ios_bold"
+                         android:textSize="18sp"
+                         android:textColor="@color/white"
+                         android:layout_marginTop="5dp"
+                     />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="@string/xyz_device_camera"
+                         android:fontFamily="@font/ios_regular"
+                         android:textSize="15sp"
+                         android:textColor="@color/white"
+                         android:layout_marginTop="2dp"
+                     />
+                 
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="Screen"
+                         android:fontFamily="@font/ios_bold"
+                         android:textSize="18sp"
+                         android:textColor="@color/white"
+                         android:layout_marginTop="5dp"
+                     />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="@string/xyz_device_screen"
+                         android:fontFamily="@font/ios_regular"
+                         android:textSize="15sp"
+                         android:textColor="@color/white"
+                         android:layout_marginTop="2dp"
+                     />
+
+                 </LinearLayout>
+                
+         </androidx.cardview.widget.CardView>
+             
+         </GridLayout>
+            
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rowCount="4"
+            android:columnCount="2"
+            android:layout_margin="25dp"
+            android:alignmentMode="alignMargins"
+            android:layout_gravity="center_horizontal"
+            android:columnOrderPreserved="false">
+            
+            <androidx.cardview.widget.CardView
+                android:id="@+id/xyz_center"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="@color/BlackBrown"
+                android:layout_margin="10dp">
+               
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="left|center"
+                    android:layout_marginLeft="20dp">
+
+                    <ImageView
+                        android:layout_width="46dp"
+                        android:layout_height="46dp"
+                        android:src="@drawable/xyz_center"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/xyz_center"
+                        android:fontFamily="@font/ios_bold"
+                        android:textSize="18sp"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/xyz_game"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="@color/BlackBrown"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="left|center"
+                    android:layout_marginLeft="20dp">
+
+                    <ImageView
+                        android:layout_width="46dp"
+                        android:layout_height="46dp"
+                        android:src="@drawable/xyz_game"
+                    />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/xyz_game"
+                        android:fontFamily="@font/ios_bold"
+                        android:textSize="18sp"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                    />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/xyz_sysinfo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="@color/BlackBrown"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="left|center"
+                    android:layout_marginLeft="20dp">
+
+                    <ImageView
+                        android:layout_width="46dp"
+                        android:layout_height="46dp"
+                        android:src="@drawable/xyz_sysinfo"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/xyz_sysinfo"
+                        android:fontFamily="@font/ios_bold"
+                        android:textSize="18sp"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/xyz_about"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="@color/BlackBrown"
+                android:layout_margin="10dp">
+       
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="left|center"
+                    android:layout_marginLeft="20dp">
+
+                    <ImageView
+                        android:layout_width="46dp"
+                        android:layout_height="46dp"
+                        android:src="@drawable/xyz_me"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/xyz_me"
+                        android:fontFamily="@font/ios_bold"
+                        android:textSize="18sp"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>
