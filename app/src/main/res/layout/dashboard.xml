@@ -68,7 +68,7 @@
                     android:layout_marginTop="25dp">
                     
                     <ImageView
-                        android:src="@drawable/iPhone11"
+                        android:src="@drawable/phone"
                         android:layout_width="150dp"
                         android:layout_height="300dp"/>                
 
@@ -315,7 +315,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/xyz_me"
+                android:id="@+id/xyz_about"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 app:cardCornerRadius="12dp"

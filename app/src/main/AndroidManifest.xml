@@ -1,46 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest
-    package="id.xyz.xyzuan"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.xyzprjkt.xyzuan"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
+
     <application
-        android:allowBackup="true"
-        android:fullBackupContent="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/xyz_app_name"
-        android:theme="@style/AppTheme"
-        tools:ignore="GoogleAppIndexingWarning">
+        android:theme="@style/AppTheme">
         <activity
-            android:name=".SplashScreen"
+            android:name=".Splash"
             android:label="@string/xyz_app_name"
-            android:noHistory="true"
-            android:screenOrientation="portrait">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name="id.xyz.xyzuan.Dashboard"
+            android:name="id.xyzprjkt.xyzuan.Dashboard"
             android:label="@string/xyz_app_name"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
-            android:name="id.xyz.xyzuan.Activity.xyz_me">
-        </activity>
+            android:name="id.xyzprjkt.xyzuan.Activity.xyz_about"/>
         <activity
-        android:name="id.xyz.xyzuan.Activity.xyz_center">
-        </activity>
+            android:name="id.xyzprjkt.xyzuan.Activity.xyz_center"/>
         <activity
-            android:name="id.xyz.xyzuan.Activity.xyz_sysinfo">
-        </activity>
+            android:name="id.xyzprjkt.xyzuan.Activity.xyz_sysinfo"/>
         <activity
-            android:name="id.xyz.xyzuan.Activity.xyz_game">
-        </activity>
-		<activity
-			android:name="com.codepath.examples.basicsnakegame.SnakeGameActivity">
-        </activity>
-</application>
+            android:name="id.xyzprjkt.xyzuan.Activity.xyz_game"/>
+        <activity
+            android:name="com.codepath.examples.basicsnakegame.SnakeGameActivity"/>
+    </application>
+
 </manifest>

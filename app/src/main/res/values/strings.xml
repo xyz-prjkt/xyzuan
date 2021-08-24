@@ -1,76 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-*
-* Copyright (c) 2020, xyzscape prjkt
-* 
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*     http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/
--->
 <resources>
-    
+    <string name="app_name">xyzuan</string>
+
     <!-- Header String -->
     <string name="xyz_app_name">i xyzuan</string>
     <string name="xyz_dashboard_title">xyzscape`Zone</string>
     <string name="xyz_dashboard_hint">Hi, xyzuan!</string>
-    
+
     <!-- Device Info String -->
     <string name="xyz_device_name">iPhone 11</string>
     <string name="xyz_device_proc">Apple A13 Bionic Chip</string>
     <string name="xyz_device_inter">256 GB</string>
     <string name="xyz_device_camera">12 + 12 Dual Camera</string>
     <string name="xyz_device_screen">Liquid Retina HD Screen</string>
-    
+
     <!-- Dashboard Menu String -->
     <string name="xyz_center">xyz Megalithic Center</string>
     <string name="xyz_sysinfo">System Information</string>
     <string name="xyz_game">Game Zone</string>
     <string name="xyz_me">About Me</string>
-    
-    <!-- System Info String ( WIP )
-    <string name="navbar_rominfo">xyz Device Info</string>
-    <string name="yes">Yes</string>
-    <string name="no">No</string>
-    <string name="build_model">Build Model"</string>
-    <string name="header_rom_build">Rom Build"</string>
-    <string name="unavailable">Unavailable</string>
-    <string name="build_name">Build Name</string>
-    <string name="build_device">Build Device</string>
-    <string name="build_product">Build Product</string>
-    <string name="build_brand">Build Brand</string>
-    <string name="build_manufacturer">Build Manufacture</string>
-    <string name="rom_sdk">SDK</string>
-    <string name="os_ver">OS rev</string>
-    <string name="os_spl">OS Security Patch</string>
-    <string name="rom_fp">Fingerprint</string>
-    <string name="rom_Desc">ROM Desc</string>
-    <string name="rom_increment">ROM Incremental</string>
-    <string name="rom_ver">ROM rev</string>
-    <string name="device_header_info">Header</string>
-    <string name="kernel_Ver">Kernel Version</string>
-    <string name="kernel_long_ver">Kernel Detailed Version</string>
-    <string name="device_cam2api">Cam2API</string>
-    <string name="device_selinux">SeLinux</string>
-    <string name="device_fp">Device FP</string>
-    <string name="device_board">Device Board</string>
-    <string name="device_baseband">Device Baseband</string>
-    <string name="device_encrypted">Device Encrypt</string>
-    <string name="tp_info_device">Touch Panel</string>
-    <string name="device_lcm_name">LCM</string>
-    <string name="device_cam_sensor">Sensor Cam</string>
-    <string name="device_battery_health">Battery Healtg</string>
-    <string name="device_battery_capacity">Battery Capacity</string>
-    <string name="device_battery_status">Battery Status</string>
-    <string name="device_battery_type">Battery Type</string>
-    -->
-        
+
 </resources>

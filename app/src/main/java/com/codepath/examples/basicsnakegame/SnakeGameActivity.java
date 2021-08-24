@@ -1,7 +1,7 @@
 package com.codepath.examples.basicsnakegame;
 
 import android.os.Bundle;
-import id.xyz.xyzuan.R;
+import id.xyzprjkt.xyzuan.R;
 
 public class SnakeGameActivity extends com.codepath.simplegame.GameActivity {
 
